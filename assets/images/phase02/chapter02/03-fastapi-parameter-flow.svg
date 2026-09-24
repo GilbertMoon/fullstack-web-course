@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text x="600" y="70" text-anchor="middle" font-family="Arial" font-size="36" font-weight="700">FastAPI Parameter 처리 흐름</text>
+  <rect x="80" y="270" width="210" height="110" rx="18" fill="#f8fafc" stroke="#475569" stroke-width="3"/>
+  <text x="185" y="320" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700">Browser / Swagger</text>
+  <text x="185" y="350" text-anchor="middle" font-family="Arial" font-size="19">GET Request</text>
+  <line x1="290" y1="325" x2="430" y2="325" stroke="#334155" stroke-width="4"/>
+  <polygon points="430,325 410,313 410,337" fill="#334155"/>
+  <rect x="430" y="230" width="300" height="190" rx="18" fill="#f8fafc" stroke="#475569" stroke-width="3"/>
+  <text x="580" y="280" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700">FastAPI Route</text>
+  <text x="580" y="325" text-anchor="middle" font-family="Arial" font-size="20">Path → function argument</text>
+  <text x="580" y="360" text-anchor="middle" font-family="Arial" font-size="20">Query → function argument</text>
+  <text x="580" y="395" text-anchor="middle" font-family="Arial" font-size="20">Type validation</text>
+  <line x1="730" y1="325" x2="870" y2="325" stroke="#334155" stroke-width="4"/>
+  <polygon points="870,325 850,313 850,337" fill="#334155"/>
+  <rect x="870" y="270" width="250" height="110" rx="18" fill="#f8fafc" stroke="#475569" stroke-width="3"/>
+  <text x="995" y="315" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700">JSON Response</text>
+  <text x="995" y="350" text-anchor="middle" font-family="Arial" font-size="19">200 / 404 / 422</text>
+  <text x="600" y="515" text-anchor="middle" font-family="Arial" font-size="22">FastAPI는 URL 값을 함수의 인자로 연결하고 타입을 검증합니다.</text>
+  <text x="600" y="560" text-anchor="middle" font-family="Arial" font-size="22">예: /members/abc → int 변환 실패 → 422 Validation Error</text>
+</svg>
