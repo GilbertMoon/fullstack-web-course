@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#fff"/>
+<text x="80" y="90" font-size="48" font-family="Arial" font-weight="700">HTTP Method &amp; Status Code</text>
+<text x="120" y="180" font-size="32" font-family="Arial" font-weight="700">Methods</text>
+<rect x="120" y="220" width="280" height="90" rx="20" fill="#e8efff"/><text x="195" y="278" font-size="30" font-family="Arial">GET</text>
+<rect x="120" y="340" width="280" height="90" rx="20" fill="#eef7ee"/><text x="185" y="398" font-size="30" font-family="Arial">POST</text>
+<rect x="120" y="460" width="280" height="90" rx="20" fill="#fff4e8"/><text x="190" y="518" font-size="30" font-family="Arial">PUT / PATCH</text>
+<rect x="120" y="580" width="280" height="90" rx="20" fill="#fdecec"/><text x="175" y="638" font-size="30" font-family="Arial">DELETE</text>
+<text x="475" y="275" font-size="28" font-family="Arial">조회</text><text x="475" y="395" font-size="28" font-family="Arial">생성</text><text x="475" y="515" font-size="28" font-family="Arial">수정</text><text x="475" y="635" font-size="28" font-family="Arial">삭제</text>
+<text x="920" y="180" font-size="32" font-family="Arial" font-weight="700">Status Codes</text>
+<rect x="920" y="220" width="400" height="90" rx="20" fill="#eef7ee"/><text x="965" y="278" font-size="30" font-family="Arial">2xx Success</text>
+<rect x="920" y="340" width="400" height="90" rx="20" fill="#fff4e8"/><text x="965" y="398" font-size="30" font-family="Arial">4xx Client Error</text>
+<rect x="920" y="460" width="400" height="90" rx="20" fill="#fdecec"/><text x="965" y="518" font-size="30" font-family="Arial">5xx Server Error</text>
+<text x="920" y="650" font-size="28" font-family="Arial">예: 200, 201, 400, 404, 500</text>
+</svg>
