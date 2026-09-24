@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <rect width="1200" height="520" fill="#f8fafc"/>
+  <style>.t{font-family:Arial,'Noto Sans KR',sans-serif;fill:#111827}.h{font-size:34px;font-weight:700}.s{font-size:22px}.b{fill:#fff;stroke:#334155;stroke-width:2;rx:16}.a{stroke:#2563eb;stroke-width:4;fill:none;marker-end:url(#m)}</style>
+  <defs><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 Z" fill="#2563eb"/></marker></defs>
+  <text x="60" y="60" class="t h">GET /members → PostgreSQL → JSON Response</text>
+  <rect x="70" y="160" width="210" height="120" class="b"/>
+  <text x="175" y="205" text-anchor="middle" class="t s">Browser / Swagger</text>
+  <text x="175" y="240" text-anchor="middle" class="t s">GET /members</text>
+  <rect x="360" y="160" width="210" height="120" class="b"/>
+  <text x="465" y="205" text-anchor="middle" class="t s">FastAPI</text>
+  <text x="465" y="240" text-anchor="middle" class="t s">Endpoint</text>
+  <rect x="650" y="160" width="210" height="120" class="b"/>
+  <text x="755" y="205" text-anchor="middle" class="t s">PostgreSQL</text>
+  <text x="755" y="240" text-anchor="middle" class="t s">SELECT</text>
+  <rect x="940" y="160" width="190" height="120" class="b"/>
+  <text x="1035" y="205" text-anchor="middle" class="t s">JSON</text>
+  <text x="1035" y="240" text-anchor="middle" class="t s">200 OK</text>
+  <path d="M280 220 H360" class="a"/><path d="M570 220 H650" class="a"/><path d="M860 220 H940" class="a"/>
+  <text x="595" y="370" text-anchor="middle" class="t s">핵심: DB 결과를 그대로 믿지 말고 Response Model까지 검증</text>
+</svg>
