@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <text x="60" y="80" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#0f172a">Swagger UI로 API Evidence 확인하기</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="80" y="165" width="1040" height="390" rx="24" fill="#fff" stroke="#334155" stroke-width="3"/>
+    <text x="135" y="225" font-size="27" font-weight="700" fill="#0f172a">GET /members</text>
+    <rect x="135" y="260" width="170" height="52" rx="10" fill="#e2e8f0"/>
+    <text x="220" y="294" text-anchor="middle" font-size="21" fill="#0f172a">Execute</text>
+    <text x="135" y="365" font-size="22" fill="#475569">확인 1</text>
+    <text x="310" y="365" font-size="22" fill="#0f172a">Request URL / Method</text>
+    <text x="135" y="410" font-size="22" fill="#475569">확인 2</text>
+    <text x="310" y="410" font-size="22" fill="#0f172a">Response Code = 200</text>
+    <text x="135" y="455" font-size="22" fill="#475569">확인 3</text>
+    <text x="310" y="455" font-size="22" fill="#0f172a">Response Body = 예상 JSON 구조</text>
+    <text x="135" y="500" font-size="22" fill="#475569">확인 4</text>
+    <text x="310" y="500" font-size="22" fill="#0f172a">Console / Server Log에 오류 없음</text>
+  </g>
+  <text x="600" y="610" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#0f172a">“코드가 있어 보인다”가 아니라 실제 요청·응답 Evidence로 완료를 판단한다.</text>
+</svg>
