@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#f8fafc"/>
+<text x="80" y="90" font-size="48" font-family="Arial, sans-serif" font-weight="700">API State Transition</text>
+<text x="80" y="135" font-size="24" font-family="Arial, sans-serif" fill="#475569">A request moves the UI through predictable states</text>
+<g font-family="Arial, sans-serif">
+<rect x="90" y="330" width="260" height="150" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="3"/>
+<text x="150" y="420" font-size="34" font-weight="700">Idle</text>
+<rect x="440" y="330" width="260" height="150" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="3"/>
+<text x="485" y="420" font-size="34" font-weight="700">Loading</text>
+<rect x="790" y="220" width="260" height="150" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="3"/>
+<text x="850" y="310" font-size="34" font-weight="700">Success</text>
+<rect x="790" y="500" width="260" height="150" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="3"/>
+<text x="855" y="590" font-size="34" font-weight="700">Empty</text>
+<rect x="1140" y="330" width="260" height="150" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="3"/>
+<text x="1200" y="420" font-size="34" font-weight="700">Error</text>
+<path d="M350 405 H430" stroke="#64748b" stroke-width="6"/>
+<path d="M700 385 C740 330 750 300 780 300" stroke="#64748b" stroke-width="6" fill="none"/>
+<path d="M700 425 C740 480 750 570 780 570" stroke="#64748b" stroke-width="6" fill="none"/>
+<path d="M700 405 H1130" stroke="#94a3b8" stroke-width="4" stroke-dasharray="12 12"/>
+<text x="360" y="375" font-size="22">request</text>
+<text x="715" y="275" font-size="22">data exists</text>
+<text x="715" y="610" font-size="22">[]</text>
+<text x="925" y="390" font-size="22">failure</text>
+</g>
+<text x="80" y="780" font-size="30" font-family="Arial, sans-serif" font-weight="700">상태를 분리하면 코드와 UI가 모두 예측 가능해집니다.</text>
+</svg>
