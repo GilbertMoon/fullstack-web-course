@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#fff"/>
+<text x="80" y="90" font-size="48" font-family="Arial" font-weight="700">HTTP Message Structure</text>
+<rect x="100" y="170" width="640" height="570" rx="28" fill="#f7f9fc" stroke="#6b7280" stroke-width="3"/>
+<text x="150" y="230" font-size="34" font-family="Arial" font-weight="700">Request</text>
+<rect x="150" y="270" width="540" height="90" rx="18" fill="#e8efff"/><text x="185" y="327" font-size="28" font-family="Arial">Method + URL</text>
+<rect x="150" y="390" width="540" height="110" rx="18" fill="#eef7ee"/><text x="185" y="455" font-size="28" font-family="Arial">Headers</text>
+<rect x="150" y="530" width="540" height="150" rx="18" fill="#fff4e8"/><text x="185" y="610" font-size="28" font-family="Arial">Body (optional)</text>
+<rect x="860" y="170" width="640" height="570" rx="28" fill="#f7f9fc" stroke="#6b7280" stroke-width="3"/>
+<text x="910" y="230" font-size="34" font-family="Arial" font-weight="700">Response</text>
+<rect x="910" y="270" width="540" height="90" rx="18" fill="#e8efff"/><text x="945" y="327" font-size="28" font-family="Arial">Status Code</text>
+<rect x="910" y="390" width="540" height="110" rx="18" fill="#eef7ee"/><text x="945" y="455" font-size="28" font-family="Arial">Headers</text>
+<rect x="910" y="530" width="540" height="150" rx="18" fill="#fff4e8"/><text x="945" y="610" font-size="28" font-family="Arial">Body: JSON / HTML / ...</text>
+</svg>
