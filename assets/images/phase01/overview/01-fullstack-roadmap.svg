@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#f8fafc"/>
+<text x="800" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#111827">Full-stack Learning Roadmap</text>
+<text x="800" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#4b5563">Database에서 시작해 실제 웹 서비스까지 연결합니다</text>
+<g font-family="Arial, sans-serif" text-anchor="middle">
+<rect x="120" y="310" rx="28" ry="28" width="250" height="180" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+<text x="245" y="380" font-size="34" font-weight="700" fill="#111827">Database</text><text x="245" y="425" font-size="22" fill="#475569">PostgreSQL</text>
+<rect x="465" y="310" rx="28" ry="28" width="250" height="180" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+<text x="590" y="370" font-size="34" font-weight="700" fill="#111827">Frontend</text><text x="590" y="415" font-size="22" fill="#475569">HTML · CSS · JS</text><text x="590" y="450" font-size="18" fill="#0f766e">Phase 01</text>
+<rect x="810" y="310" rx="28" ry="28" width="250" height="180" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+<text x="935" y="370" font-size="34" font-weight="700" fill="#111827">Backend</text><text x="935" y="415" font-size="22" fill="#475569">FastAPI</text><text x="935" y="450" font-size="18" fill="#0f766e">Phase 02</text>
+<rect x="1155" y="310" rx="28" ry="28" width="325" height="180" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+<text x="1317" y="360" font-size="31" font-weight="700" fill="#111827">Modern Frontend</text><text x="1317" y="405" font-size="22" fill="#475569">TypeScript · React</text><text x="1317" y="438" font-size="22" fill="#475569">Next.js · Integration</text><text x="1317" y="470" font-size="18" fill="#0f766e">Phase 03</text>
+<g stroke="#64748b" stroke-width="5" fill="none"><path d="M370 400 H445"/><path d="M715 400 H790"/><path d="M1060 400 H1135"/></g>
+<g fill="#64748b"><polygon points="445,400 425,388 425,412"/><polygon points="790,400 770,388 770,412"/><polygon points="1135,400 1115,388 1115,412"/></g>
+<rect x="430" y="610" rx="24" ry="24" width="740" height="130" fill="#ecfeff" stroke="#0f766e" stroke-width="2"/>
+<text x="800" y="665" font-size="28" font-weight="700" fill="#134e4a">현재 과정의 목표</text><text x="800" y="710" font-size="24" fill="#134e4a">웹의 구조를 이해하고, API 데이터를 화면에 연결할 수 있게 되기</text>
+</g></svg>
