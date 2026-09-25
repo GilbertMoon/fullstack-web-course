@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f8fafc"/>
+  <text x="600" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#0f172a">Requirement → UI Structure</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="80" y="180" width="220" height="120" rx="18" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+    <text x="190" y="225" text-anchor="middle" font-size="24" font-weight="700" fill="#0f172a">Requirement</text>
+    <text x="190" y="262" text-anchor="middle" font-size="18" fill="#334155">회원 조회·검색·등록</text>
+    <path d="M300 240 H390" stroke="#64748b" stroke-width="4" marker-end="url(#a)"/>
+    <rect x="390" y="180" width="220" height="120" rx="18" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="500" y="225" text-anchor="middle" font-size="24" font-weight="700" fill="#1e3a8a">User Flow</text>
+    <text x="500" y="262" text-anchor="middle" font-size="18" fill="#1e40af">사용자 행동 순서</text>
+    <path d="M610 240 H700" stroke="#64748b" stroke-width="4" marker-end="url(#a)"/>
+    <rect x="700" y="180" width="220" height="120" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="810" y="225" text-anchor="middle" font-size="24" font-weight="700" fill="#14532d">Component Tree</text>
+    <text x="810" y="262" text-anchor="middle" font-size="18" fill="#166534">화면 책임 분해</text>
+    <path d="M920 240 H1010" stroke="#64748b" stroke-width="4" marker-end="url(#a)"/>
+    <rect x="1010" y="180" width="130" height="120" rx="18" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="1075" y="225" text-anchor="middle" font-size="22" font-weight="700" fill="#78350f">DoD</text>
+    <text x="1075" y="260" text-anchor="middle" font-size="17" fill="#92400e">검증 기준</text>
+
+    <rect x="170" y="400" width="860" height="180" rx="22" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="600" y="445" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">코드는 구조와 계약이 정해진 뒤에 작성합니다</text>
+    <text x="600" y="495" text-anchor="middle" font-size="21" fill="#334155">AI에게 “페이지 전체를 만들어줘”가 아니라 Component와 Task 단위로 요청</text>
+    <text x="600" y="535" text-anchor="middle" font-size="21" fill="#334155">완료 여부는 Browser 화면뿐 아니라 요구사항과 데이터 흐름으로 검증</text>
+  </g>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
+</svg>
