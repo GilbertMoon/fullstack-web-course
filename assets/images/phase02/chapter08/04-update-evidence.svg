@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <text x="60" y="80" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#111827">UPDATE Evidence 검증</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="90" y="210" width="250" height="130" rx="20" fill="#eef2ff" stroke="#6366f1" stroke-width="3"/>
+    <text x="215" y="255" font-size="27" font-weight="700" fill="#3730a3">Swagger</text>
+    <text x="215" y="295" font-size="21" fill="#374151">200 / 404 / 409 / 422</text>
+    <rect x="475" y="210" width="250" height="130" rx="20" fill="#ecfdf5" stroke="#10b981" stroke-width="3"/>
+    <text x="600" y="255" font-size="27" font-weight="700" fill="#047857">PostgreSQL</text>
+    <text x="600" y="295" font-size="21" fill="#374151">SELECT로 실제 값 확인</text>
+    <rect x="860" y="210" width="250" height="130" rx="20" fill="#eff6ff" stroke="#3b82f6" stroke-width="3"/>
+    <text x="985" y="255" font-size="27" font-weight="700" fill="#1d4ed8">GET 재조회</text>
+    <text x="985" y="295" font-size="21" fill="#374151">API 응답 재확인</text>
+  </g>
+  <g stroke="#6b7280" stroke-width="4" fill="none"><path d="M340 275 H475"/><path d="M725 275 H860"/></g>
+  <text x="600" y="455" font-family="Arial, sans-serif" font-size="25" text-anchor="middle" fill="#374151">수정 성공은 Response만이 아니라 DB와 재조회까지 일치해야 한다.</text>
+</svg>
