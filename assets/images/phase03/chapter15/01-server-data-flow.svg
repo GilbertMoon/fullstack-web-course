@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#f8fafc"/>
+  <text x="60" y="70" font-size="34" font-family="Arial" font-weight="700">Server Data Flow</text>
+  <g font-family="Arial" font-size="24" fill="#0f172a" text-anchor="middle">
+    <rect x="80" y="180" width="220" height="120" rx="18" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <text x="190" y="245">Next.js Server</text>
+    <rect x="390" y="180" width="220" height="120" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+    <text x="500" y="245">FastAPI</text>
+    <rect x="700" y="180" width="220" height="120" rx="18" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+    <text x="810" y="245">PostgreSQL</text>
+    <rect x="390" y="430" width="420" height="120" rx="18" fill="#ede9fe" stroke="#7c3aed" stroke-width="3"/>
+    <text x="600" y="490">Rendered UI + State UI</text>
+  </g>
+  <g stroke="#475569" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M300 240 H390"/>
+    <path d="M610 240 H700"/>
+    <path d="M810 300 C810 370 730 390 680 430"/>
+    <path d="M390 240 C330 260 300 360 430 430"/>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker></defs>
+</svg>
