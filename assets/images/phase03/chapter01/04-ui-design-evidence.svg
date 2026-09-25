@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f8fafc"/>
+  <text x="600" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#0f172a">UI Design Evidence</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="90" y="150" width="230" height="115" rx="18" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+    <text x="205" y="195" text-anchor="middle" font-size="24" font-weight="700" fill="#0f172a">Requirement</text>
+    <text x="205" y="230" text-anchor="middle" font-size="17" fill="#334155">무엇을 해야 하나?</text>
+    <path d="M320 208 H405" stroke="#64748b" stroke-width="4" marker-end="url(#a)"/>
+
+    <rect x="405" y="150" width="230" height="115" rx="18" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="520" y="195" text-anchor="middle" font-size="24" font-weight="700" fill="#1e3a8a">User Flow</text>
+    <text x="520" y="230" text-anchor="middle" font-size="17" fill="#1e40af">사용자 행동 순서</text>
+    <path d="M635 208 H720" stroke="#64748b" stroke-width="4" marker-end="url(#a)"/>
+
+    <rect x="720" y="150" width="230" height="115" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="835" y="195" text-anchor="middle" font-size="24" font-weight="700" fill="#14532d">Component Tree</text>
+    <text x="835" y="230" text-anchor="middle" font-size="17" fill="#166534">책임이 분리됐나?</text>
+
+    <rect x="190" y="350" width="820" height="250" rx="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="600" y="400" text-anchor="middle" font-size="28" font-weight="700" fill="#0f172a">Definition of Done</text>
+    <text x="235" y="455" font-size="20" fill="#334155">✓ 요구사항마다 대응 Component가 있다.</text>
+    <text x="235" y="495" font-size="20" fill="#334155">✓ 각 Component 책임을 한 문장으로 설명할 수 있다.</text>
+    <text x="235" y="535" font-size="20" fill="#334155">✓ Props / State / Server Data 후보를 구분했다.</text>
+    <text x="235" y="575" font-size="20" fill="#334155">✓ API 호출 위치와 주요 사용자 흐름을 설명할 수 있다.</text>
+
+    <text x="600" y="675" text-anchor="middle" font-size="22" font-weight="700" fill="#475569">설계도 검증 가능한 Evidence가 있어야 완료입니다.</text>
+  </g>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
+</svg>
