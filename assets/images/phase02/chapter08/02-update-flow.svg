@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <text x="60" y="80" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#111827">UPDATE 요청 처리 흐름</text>
+  <g font-family="Arial, sans-serif" font-size="22" fill="#111827" text-anchor="middle">
+    <rect x="55" y="230" width="180" height="100" rx="18" fill="#eef2ff" stroke="#6366f1" stroke-width="3"/>
+    <text x="145" y="270">PUT / PATCH</text><text x="145" y="300">/members/{id}</text>
+    <rect x="275" y="230" width="180" height="100" rx="18" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="3"/>
+    <text x="365" y="270">Pydantic</text><text x="365" y="300">Validation</text>
+    <rect x="495" y="230" width="180" height="100" rx="18" fill="#fef3c7" stroke="#f59e0b" stroke-width="3"/>
+    <text x="585" y="270">존재 / 중복</text><text x="585" y="300">검사</text>
+    <rect x="715" y="230" width="180" height="100" rx="18" fill="#ecfdf5" stroke="#10b981" stroke-width="3"/>
+    <text x="805" y="270">SQL UPDATE</text><text x="805" y="300">RETURNING</text>
+    <rect x="935" y="230" width="180" height="100" rx="18" fill="#eff6ff" stroke="#3b82f6" stroke-width="3"/>
+    <text x="1025" y="270">commit</text><text x="1025" y="300">200 Response</text>
+  </g>
+  <g stroke="#6b7280" stroke-width="4" fill="none"><path d="M235 280 H275"/><path d="M455 280 H495"/><path d="M675 280 H715"/><path d="M895 280 H935"/></g>
+  <text x="600" y="430" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#374151">계약 → 검증 → 대상 확인 → DB 수정 → 응답</text>
+</svg>
