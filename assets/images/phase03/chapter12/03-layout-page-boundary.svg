@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <text x="600" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#111827">layout.tsx와 page.tsx의 역할</text>
+  <rect x="120" y="120" width="960" height="440" rx="26" fill="#f9fafb" stroke="#111827" stroke-width="3"/>
+  <rect x="170" y="170" width="860" height="90" rx="18" fill="#eef2ff" stroke="#111827" stroke-width="2"/>
+  <text x="600" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#111827">Root Layout — html / body / 전역 UI</text>
+  <rect x="220" y="300" width="760" height="210" rx="20" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+  <text x="600" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#111827">Members Layout — 공통 Header / Navigation</text>
+  <rect x="290" y="385" width="280" height="90" rx="16" fill="#ecfeff" stroke="#111827" stroke-width="2"/>
+  <text x="430" y="440" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#111827">/members page.tsx</text>
+  <rect x="630" y="385" width="280" height="90" rx="16" fill="#f0fdf4" stroke="#111827" stroke-width="2"/>
+  <text x="770" y="440" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#111827">/members/new page.tsx</text>
+  <text x="600" y="615" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#111827">Layout은 공유 경계, Page는 URL별 화면 책임</text>
+</svg>
