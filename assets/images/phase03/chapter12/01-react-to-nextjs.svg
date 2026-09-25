@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <text x="600" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#111827">React SPA에서 Next.js App Router로</text>
+  <rect x="110" y="180" width="360" height="300" rx="24" fill="#f3f4f6" stroke="#111827" stroke-width="3"/>
+  <text x="290" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#111827">React SPA</text>
+  <text x="290" y="300" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#374151">Component</text>
+  <text x="290" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#374151">State / Event</text>
+  <text x="290" y="390" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#374151">Client Routing 직접 구성</text>
+  <text x="290" y="435" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#374151">앱 구조를 직접 결정</text>
+  <path d="M500 330 H690" stroke="#111827" stroke-width="5" marker-end="url(#a)"/>
+  <rect x="730" y="150" width="360" height="360" rx="24" fill="#eef2ff" stroke="#111827" stroke-width="3"/>
+  <text x="910" y="205" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#111827">Next.js App Router</text>
+  <text x="910" y="270" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#374151">React Component 유지</text>
+  <text x="910" y="315" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#374151">File-system Routing</text>
+  <text x="910" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#374151">page.tsx / layout.tsx</text>
+  <text x="910" y="405" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#374151">Server / Client 경계</text>
+  <text x="910" y="450" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#374151">Build / Route Evidence</text>
+  <text x="600" y="590" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#111827">React를 버리는 것이 아니라 React 위에 Routing·Rendering·구조 규칙을 더한다.</text>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111827"/></marker></defs>
+</svg>
