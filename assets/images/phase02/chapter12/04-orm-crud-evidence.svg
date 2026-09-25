@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#f8fafc"/>
+  <text x="60" y="70" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#0f172a">ORM CRUD Evidence 검증</text>
+  <g font-family="Arial, sans-serif" font-size="24" fill="#0f172a" text-anchor="middle">
+    <rect x="70" y="190" rx="18" width="230" height="105" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/><text x="185" y="235">Swagger</text><text x="185" y="270">Status / JSON</text>
+    <rect x="355" y="190" rx="18" width="230" height="105" fill="#fef3c7" stroke="#d97706" stroke-width="3"/><text x="470" y="235">SQLAlchemy Log</text><text x="470" y="270">실제 SQL</text>
+    <rect x="640" y="190" rx="18" width="230" height="105" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/><text x="755" y="235">PostgreSQL</text><text x="755" y="270">실제 Row</text>
+    <rect x="925" y="190" rx="18" width="205" height="105" fill="#ede9fe" stroke="#7c3aed" stroke-width="3"/><text x="1028" y="235">GET 재조회</text><text x="1028" y="270">Regression</text>
+  </g>
+  <g stroke="#475569" stroke-width="4" fill="none" marker-end="url(#a)"><path d="M300 243 H355"/><path d="M585 243 H640"/><path d="M870 243 H925"/></g>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker></defs>
+  <text x="70" y="430" font-family="Arial, sans-serif" font-size="25" fill="#334155">정상 완료 조건</text>
+  <g font-family="Arial, sans-serif" font-size="23" fill="#334155">
+    <text x="100" y="485">1. API Status와 Response가 Contract와 일치</text>
+    <text x="100" y="530">2. ORM이 생성한 SQL이 의도한 CRUD와 일치</text>
+    <text x="100" y="575">3. PostgreSQL 실제 데이터가 예상대로 변경</text>
+    <text x="100" y="620">4. 다시 조회했을 때 변경 결과가 유지</text>
+  </g>
+</svg>
