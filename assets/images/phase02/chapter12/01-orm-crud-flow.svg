@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#f8fafc"/>
+  <text x="60" y="70" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#0f172a">ORM 기반 CRUD 흐름</text>
+  <g font-family="Arial, sans-serif" font-size="24" fill="#0f172a" text-anchor="middle">
+    <rect x="70" y="180" rx="18" ry="18" width="190" height="100" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/><text x="165" y="240">Router</text>
+    <rect x="330" y="180" rx="18" ry="18" width="190" height="100" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/><text x="425" y="240">Service</text>
+    <rect x="590" y="180" rx="18" ry="18" width="220" height="100" fill="#fef3c7" stroke="#d97706" stroke-width="3"/><text x="700" y="240">Repository</text>
+    <rect x="880" y="180" rx="18" ry="18" width="220" height="100" fill="#ede9fe" stroke="#7c3aed" stroke-width="3"/><text x="990" y="240">SQLAlchemy ORM</text>
+    <rect x="880" y="420" rx="18" ry="18" width="220" height="100" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/><text x="990" y="480">PostgreSQL</text>
+  </g>
+  <g stroke="#475569" stroke-width="4" fill="none" marker-end="url(#a)">
+    <path d="M260 230 H330"/><path d="M520 230 H590"/><path d="M810 230 H880"/><path d="M990 280 V420"/>
+  </g>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker></defs>
+  <text x="70" y="610" font-family="Arial, sans-serif" font-size="24" fill="#334155">CRUD 책임은 Repository에 집중하고, Service는 업무 규칙과 트랜잭션 의도를 조정합니다.</text>
+</svg>
