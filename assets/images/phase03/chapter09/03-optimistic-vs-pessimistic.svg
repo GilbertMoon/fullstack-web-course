@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+  <rect width="1200" height="560" fill="#fff"/>
+  <style>.t{font:700 28px Arial,sans-serif;fill:#111827}.h{font:700 21px Arial,sans-serif;fill:#111827}.b{font:18px Arial,sans-serif;fill:#374151}.box{fill:#f9fafb;stroke:#9ca3af;stroke-width:2;rx:16}.a{stroke:#6b7280;stroke-width:3;marker-end:url(#m)}</style>
+  <defs><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3 Z" fill="#6b7280"/></marker></defs>
+  <text x="50" y="55" class="t">Optimistic vs Pessimistic Update</text>
+  <text x="95" y="115" class="h">Pessimistic</text>
+  <rect x="70" y="140" width="185" height="85" class="box"/><text x="105" y="190" class="b">User Action</text>
+  <rect x="335" y="140" width="185" height="85" class="box"/><text x="365" y="190" class="b">API Success</text>
+  <rect x="600" y="140" width="200" height="85" class="box"/><text x="625" y="190" class="b">Update UI</text>
+  <line x1="255" y1="182" x2="335" y2="182" class="a"/><line x1="520" y1="182" x2="600" y2="182" class="a"/>
+  <text x="95" y="325" class="h">Optimistic</text>
+  <rect x="70" y="350" width="185" height="85" class="box"/><text x="105" y="400" class="b">User Action</text>
+  <rect x="335" y="350" width="185" height="85" class="box"/><text x="370" y="400" class="b">Update UI</text>
+  <rect x="600" y="350" width="200" height="85" class="box"/><text x="635" y="400" class="b">API Result</text>
+  <rect x="900" y="350" width="220" height="85" class="box"/><text x="930" y="387" class="b">Failure?</text><text x="930" y="415" class="b">rollback / reconcile</text>
+  <line x1="255" y1="392" x2="335" y2="392" class="a"/><line x1="520" y1="392" x2="600" y2="392" class="a"/><line x1="800" y1="392" x2="900" y2="392" class="a"/>
+  <text x="70" y="505" class="b">초보 단계에서는 Pessimistic flow가 Evidence 확인과 오류 처리에 더 단순합니다.</text>
+</svg>
