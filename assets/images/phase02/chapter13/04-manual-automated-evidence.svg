@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text x="600" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700">Manual + Automated Evidence</text>
+  <g font-family="Arial, sans-serif" font-size="23" text-anchor="middle">
+    <rect x="100" y="180" width="300" height="120" rx="18" fill="#eef2ff" stroke="#4f46e5" stroke-width="3"/><text x="250" y="225">Manual Check</text><text x="250" y="260">Swagger / Log / DB</text>
+    <rect x="800" y="180" width="300" height="120" rx="18" fill="#ecfeff" stroke="#0891b2" stroke-width="3"/><text x="950" y="225">Automated Check</text><text x="950" y="260">pytest / TestClient</text>
+    <rect x="430" y="390" width="340" height="120" rx="18" fill="#f0fdf4" stroke="#16a34a" stroke-width="3"/><text x="600" y="435">API Contract Evidence</text><text x="600" y="470">Status / JSON / Regression</text>
+  </g>
+  <g stroke="#475569" stroke-width="4" fill="none" marker-end="url(#a)"><path d="M250 300 C250 370 430 410 470 420"/><path d="M950 300 C950 370 770 410 730 420"/></g>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker></defs>
+  <text x="600" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#334155">한 번 확인하는 것과 계속 확인할 수 있는 것은 다르다.</text>
+</svg>
