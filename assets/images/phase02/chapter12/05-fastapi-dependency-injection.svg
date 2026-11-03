@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+<title id="title">FastAPI 의존성 주입: 식당 비유와 실행 흐름</title>
+<desc id="desc">요청 후 FastAPI가 Depends(get_db)를 확인하고 get_db에서 Session을 생성하여 yield로 제공한 뒤 get_members에 주입하며 완료 후 finally에서 닫는 흐름</desc>
+<rect width="1200" height="680" rx="24" fill="#f8fafc"/>
+<text x="52" y="67" font-family="Arial, Noto Sans KR, sans-serif" font-size="32" font-weight="700" fill="#0f172a">FastAPI 의존성 주입(DI) — 식당으로 이해하기</text>
+<text x="52" y="101" font-family="Arial, Noto Sans KR, sans-serif" font-size="18" fill="#475569">재료를 준비하는 사람과 요리하는 사람은 역할이 다릅니다.</text>
+<rect x="50" y="135" width="520" height="68" rx="12" fill="#e2e8f0"/>
+<text x="310" y="161" font-family="Arial, Noto Sans KR, sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#334155">식당 비유</text>
+<text x="310" y="186" font-family="Arial, Noto Sans KR, sans-serif" font-size="17" text-anchor="middle" fill="#334155">운영 시스템이 순서를 조율합니다.</text>
+<rect x="630" y="135" width="520" height="68" rx="12" fill="#dbeafe"/>
+<text x="890" y="161" font-family="Arial, Noto Sans KR, sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#1e40af">FastAPI 코드</text>
+<text x="890" y="186" font-family="Consolas, monospace" font-size="16" text-anchor="middle" fill="#1e40af">GET /members → Depends(get_db)</text>
+<g font-family="Arial, Noto Sans KR, sans-serif" text-anchor="middle">
+<rect x="50" y="225" width="520" height="78" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="310" y="255" font-size="22" font-weight="700" fill="#0f172a">① 재료 담당자가 도구 준비</text>
+<text x="310" y="282" font-size="17" fill="#475569">요리 도구를 준비합니다.</text>
+<rect x="630" y="225" width="520" height="78" rx="12" fill="#ffffff" stroke="#93c5fd" stroke-width="2"/>
+<text x="890" y="254" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#1d4ed8">get_db()</text>
+<text x="890" y="280" font-family="Consolas, monospace" font-size="18" fill="#334155">db = SessionLocal()</text>
+<rect x="50" y="326" width="520" height="78" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="310" y="356" font-size="22" font-weight="700" fill="#0f172a">② 도구를 잠시 빌려줌</text>
+<text x="310" y="383" font-size="17" fill="#475569">담당자는 전달 후 정리를 위해 대기합니다.</text>
+<rect x="630" y="326" width="520" height="78" rx="12" fill="#ffffff" stroke="#93c5fd" stroke-width="2"/>
+<text x="890" y="355" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#1d4ed8">yield db</text>
+<text x="890" y="381" font-size="17" fill="#334155">FastAPI가 Session을 받아 주입</text>
+<rect x="50" y="427" width="520" height="78" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="310" y="457" font-size="22" font-weight="700" fill="#0f172a">③ 요리사가 도구를 사용</text>
+<text x="310" y="484" font-size="17" fill="#475569">요리사는 요리 업무에 집중합니다.</text>
+<rect x="630" y="427" width="520" height="78" rx="12" fill="#ffffff" stroke="#93c5fd" stroke-width="2"/>
+<text x="890" y="454" font-family="Consolas, monospace" font-size="19" font-weight="700" fill="#1d4ed8">get_members(db: Session =</text>
+<text x="890" y="479" font-family="Consolas, monospace" font-size="19" font-weight="700" fill="#1d4ed8">Depends(get_db))</text>
+<rect x="50" y="528" width="520" height="78" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="310" y="558" font-size="22" font-weight="700" fill="#0f172a">④ 사용 후 도구 정리</text>
+<text x="310" y="585" font-size="17" fill="#475569">재료 담당자가 마무리합니다.</text>
+<rect x="630" y="528" width="520" height="78" rx="12" fill="#ffffff" stroke="#93c5fd" stroke-width="2"/>
+<text x="890" y="557" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#1d4ed8">finally: db.close()</text>
+<text x="890" y="583" font-size="17" fill="#334155">의존성 종료 처리</text>
+</g>
+<g stroke="#64748b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M310 305 v15 m-7 -7 l7 7 7 -7 M310 406 v15 m-7 -7 l7 7 7 -7 M310 507 v15 m-7 -7 l7 7 7 -7"/>
+<path d="M890 305 v15 m-7 -7 l7 7 7 -7 M890 406 v15 m-7 -7 l7 7 7 -7 M890 507 v15 m-7 -7 l7 7 7 -7"/>
+</g>
+<text x="600" y="645" font-family="Arial, Noto Sans KR, sans-serif" font-size="18" font-weight="700" fill="#0f172a" text-anchor="middle">get_db가 준비·정리하고, FastAPI가 전달하며, get_members가 사용합니다.</text>
+</svg>
