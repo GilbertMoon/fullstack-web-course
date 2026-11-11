@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  
+<style>
+  .bg{fill:#ffffff}.title{font:700 52px Arial,'Noto Sans KR',sans-serif;fill:#0f2747}
+  .sub{font:700 28px Arial,'Noto Sans KR',sans-serif;fill:#16365f}
+  .h{font:700 30px Arial,'Noto Sans KR',sans-serif;fill:white}
+  .t{font:600 24px Arial,'Noto Sans KR',sans-serif;fill:#17324d}
+  .s{font:500 20px Arial,'Noto Sans KR',sans-serif;fill:#284965}
+  .tiny{font:500 18px Arial,'Noto Sans KR',sans-serif;fill:#35536f}
+  .blue{fill:#0d6efd}.teal{fill:#16a394}.pale{fill:#edf5ff}.mint{fill:#e9fbf7}
+  .stroke{stroke:#195b9b;stroke-width:4}.stroke2{stroke:#139486;stroke-width:4}
+  .line{stroke:#164e7e;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+  .arrow{marker-end:url(#arrow)} .soft{filter:url(#shadow)}
+</style>
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#164e7e"/></marker>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity=".12"/></filter>
+</defs><rect class="bg" width="1600" height="900"/>
+  <text x="800" y="74" text-anchor="middle" class="title">Chapter 09 · 최종 End-to-End 전체 흐름</text>
+  <rect x="430" y="95" width="740" height="58" rx="29" fill="#dfeeff"/>
+  <text x="800" y="134" text-anchor="middle" class="sub">사용자 행동부터 테스트까지 한눈에 보기</text>
+  
+  <rect x="55" y="220" width="255" height="190" rx="24" class="pale stroke"/><text x="182" y="275" text-anchor="middle" class="t">1. 상품 목록 조회</text><text x="182" y="335" text-anchor="middle" class="s">Frontend</text><rect x="360" y="220" width="255" height="190" rx="24" class="pale stroke"/><text x="487" y="275" text-anchor="middle" class="t">2. 상품 선택</text><text x="487" y="335" text-anchor="middle" class="s">Frontend</text><rect x="665" y="220" width="255" height="190" rx="24" class="pale stroke"/><text x="792" y="275" text-anchor="middle" class="t">3. 장바구니 추가</text><text x="792" y="335" text-anchor="middle" class="s">Frontend</text><rect x="970" y="220" width="255" height="190" rx="24" class="pale stroke"/><text x="1097" y="275" text-anchor="middle" class="t">4. 주문 요청 API</text><text x="1097" y="335" text-anchor="middle" class="s">Frontend</text><rect x="1275" y="220" width="255" height="190" rx="24" class="mint stroke2"/><text x="1402" y="275" text-anchor="middle" class="t">5. Backend 로직</text><text x="1402" y="335" text-anchor="middle" class="s">Backend</text><rect x="55" y="520" width="255" height="190" rx="24" class="mint stroke2"/><text x="182" y="575" text-anchor="middle" class="t">6. DB 저장</text><text x="182" y="635" text-anchor="middle" class="s">DB</text><rect x="360" y="520" width="255" height="190" rx="24" class="mint stroke2"/><text x="487" y="575" text-anchor="middle" class="t">7. 응답 반환</text><text x="487" y="635" text-anchor="middle" class="s">Backend</text><rect x="665" y="520" width="255" height="190" rx="24" class="pale stroke"/><text x="792" y="575" text-anchor="middle" class="t">8. 주문 완료 화면</text><text x="792" y="635" text-anchor="middle" class="s">Frontend</text><rect x="970" y="520" width="255" height="190" rx="24" class="pale stroke"/><text x="1097" y="575" text-anchor="middle" class="t">9. pytest / Playwright</text><text x="1097" y="635" text-anchor="middle" class="s">Test</text>
+  <path d="M310 315 H360" class="line arrow"/><path d="M615 315 H665" class="line arrow"/><path d="M920 315 H970" class="line arrow"/><path d="M1225 315 H1275" class="line arrow"/>
+  <path d="M1400 410 V470 H180 V520" class="line arrow"/>
+  <path d="M310 615 H360" class="line arrow"/><path d="M615 615 H665" class="line arrow"/><path d="M920 615 H970" class="line arrow"/>
+  <rect x="160" y="760" width="930" height="95" rx="26" fill="#eef7ff" class="stroke"/><text x="625" y="800" text-anchor="middle" class="t">학습 포인트</text><text x="625" y="835" text-anchor="middle" class="s">React UI 흐름 · FastAPI 계층 구조 · DB 설계 · 자동 테스트</text>
+  <rect x="1150" y="760" width="350" height="95" rx="26" class="mint stroke2"/><text x="1325" y="800" text-anchor="middle" class="t">Legend</text><text x="1325" y="835" text-anchor="middle" class="s">Frontend · Backend · DB/Test</text>
+</svg>
