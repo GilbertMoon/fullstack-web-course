@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  
+<style>
+  .bg{fill:#ffffff}.title{font:700 52px Arial,'Noto Sans KR',sans-serif;fill:#0f2747}
+  .sub{font:700 28px Arial,'Noto Sans KR',sans-serif;fill:#16365f}
+  .h{font:700 30px Arial,'Noto Sans KR',sans-serif;fill:white}
+  .t{font:600 24px Arial,'Noto Sans KR',sans-serif;fill:#17324d}
+  .s{font:500 20px Arial,'Noto Sans KR',sans-serif;fill:#284965}
+  .tiny{font:500 18px Arial,'Noto Sans KR',sans-serif;fill:#35536f}
+  .blue{fill:#0d6efd}.teal{fill:#16a394}.pale{fill:#edf5ff}.mint{fill:#e9fbf7}
+  .stroke{stroke:#195b9b;stroke-width:4}.stroke2{stroke:#139486;stroke-width:4}
+  .line{stroke:#164e7e;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+  .arrow{marker-end:url(#arrow)} .soft{filter:url(#shadow)}
+</style>
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#164e7e"/></marker>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity=".12"/></filter>
+</defs><rect class="bg" width="1600" height="900"/>
+  <text x="800" y="74" text-anchor="middle" class="title">Chapter 09 · 주문 Transaction</text>
+  <rect x="430" y="95" width="740" height="58" rx="29" fill="#dfeeff"/>
+  <text x="800" y="134" text-anchor="middle" class="sub">모두 성공하면 COMMIT, 하나라도 실패하면 ROLLBACK</text>
+  
+  <rect x="40" y="235" width="190" height="330" rx="24" class="pale stroke"/><rect x="255" y="235" width="190" height="330" rx="24" class="pale stroke"/><rect x="470" y="235" width="190" height="330" rx="24" class="mint stroke2"/><rect x="685" y="235" width="190" height="330" rx="24" class="pale stroke"/><rect x="900" y="235" width="190" height="330" rx="24" class="mint stroke2"/><rect x="1115" y="235" width="190" height="330" rx="24" class="pale stroke"/><rect x="1330" y="235" width="190" height="330" rx="24" class="mint stroke2"/>
+  <text x="135" y="280" text-anchor="middle" class="t">1 주문 시작</text><text x="350" y="280" text-anchor="middle" class="t">2 재고 확인</text><text x="565" y="280" text-anchor="middle" class="t">3 orders 생성</text><text x="780" y="280" text-anchor="middle" class="t">4 order_items</text><text x="995" y="280" text-anchor="middle" class="t">5 재고 차감</text><text x="1210" y="280" text-anchor="middle" class="t">6 총액 저장</text><text x="1425" y="280" text-anchor="middle" class="t">7 COMMIT</text>
+  <text x="135" y="380" text-anchor="middle" class="s">Transaction 시작</text><text x="350" y="380" text-anchor="middle" class="s">상품 / 수량 확인</text><text x="565" y="380" text-anchor="middle" class="s">주문 기본정보</text><text x="780" y="380" text-anchor="middle" class="s">주문 상세정보</text><text x="995" y="380" text-anchor="middle" class="s">products 감소</text><text x="1210" y="380" text-anchor="middle" class="s">서버 계산</text><text x="1425" y="380" text-anchor="middle" class="s">영구 반영</text>
+  <path d="M230 420 H255" class="line arrow"/><path d="M445 420 H470" class="line arrow"/><path d="M660 420 H685" class="line arrow"/><path d="M875 420 H900" class="line arrow"/><path d="M1090 420 H1115" class="line arrow"/><path d="M1305 420 H1330" class="line arrow"/>
+  <path d="M350 565 V630 H1210 V565" stroke="#e56a28" stroke-width="5" fill="none"/><text x="780" y="625" text-anchor="middle" class="t" fill="#c04a18">2~6 단계 중 하나라도 실패 시</text>
+  <rect x="520" y="670" width="260" height="90" rx="22" fill="#fff0e7" stroke="#e56a28" stroke-width="4"/><text x="650" y="725" text-anchor="middle" class="t" fill="#c04a18">오류 발생</text>
+  <rect x="850" y="670" width="260" height="90" rx="22" fill="#e95c45"/><text x="980" y="725" text-anchor="middle" class="h">ROLLBACK</text><path d="M780 715 H850" class="line arrow"/>
+  <rect x="80" y="790" width="600" height="80" rx="24" class="mint stroke2"/><text x="380" y="840" text-anchor="middle" class="t">성공: 주문 저장 · 주문항목 저장 · 재고 감소</text>
+  <rect x="920" y="790" width="600" height="80" rx="24" fill="#fff0e7" stroke="#e56a28" stroke-width="4"/><text x="1220" y="840" text-anchor="middle" class="t" fill="#b34a1b">실패: 데이터 원복 · 부분 저장 방지</text>
+</svg>
